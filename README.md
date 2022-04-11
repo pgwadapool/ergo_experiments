@@ -6,7 +6,10 @@
 3) Create a new directory ergo and cd ergo 
 4) Download latest release from https://github.com/ergoplatform/ergo/releases
 5) Create a new config file myergo.conf (You can copy from this repo)
-6) start ergo using command "java -jar -Xmx3g ergo-* --testnet -c myergo.conf
+6) start ergo using command 
+```console
+java -jar -Xmx3g ergo-* --testnet -c myergo.conf
+```
 
 # Web browser based
 1) In a web browser open http://localhost:9052/panel
