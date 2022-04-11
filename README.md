@@ -36,8 +36,9 @@ sudo apt-get install sbt
 
 # Running example
 1) Download https://github.com/ApexTheory/appkit-by-example
-2) sbt
-3) once this is done, sbt_run
+2) Change the ergo_config.json to add the host:port number which is localhost:9052, add wallet mnemonic and API key is hello if you have used my conf file
+3) sbt
+4) once this is done, sbt_run
 
 
 
