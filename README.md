@@ -14,6 +14,7 @@
 3) You can get 60 testERG by sending a request to https://testnet.ergofaucet.org/payment/address/TESTNET_WALLET_ADDRESS
 
 # Installing tools
+```console
 sudo apt-get install default-jdk -y
 wget www.scala-lang.org/files/archive/scala-2.13.1.deb
 sudo dpkg -i scala*.deb
@@ -28,7 +29,7 @@ curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89
 sudo chmod 644 /etc/apt/trusted.gpg.d/scalasbt-release.gpg
 sudo apt-get update
 sudo apt-get install sbt
-
+```
 
 # Running example
 1) Download https://github.com/ApexTheory/appkit-by-example
