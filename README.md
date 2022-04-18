@@ -11,6 +11,15 @@
 java -jar -Xmx3g ergo-* --testnet -c myergo.conf
 ```
 
+# Some updates for EIP-27 testnet --- THIS SHOULD BE TEMPORARY
+If you are note on this latest release then you may have problem in the testnet not syncing
+
+Steps to do
+1) get the rc1 candidate from https://github.com/ergoplatform/ergo/releases/tag/rc1
+2) In the ergo config set peerDiscovery = false under network
+3) remove history, state, peers, and the registry folder in /wallet (dont worry if this is first time you run the testnet. You will anyways not have this folder)
+4) start with the above command
+
 # Web browser based
 1) In a web browser open http://localhost:9052/panel
 2) Set up the wallet. Remember to store the secret keys
